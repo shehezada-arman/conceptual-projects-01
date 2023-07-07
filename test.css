@@ -1,0 +1,22 @@
+* {margin: 0;
+   padding: 0;
+   font-family: Arial;
+   border: border-box; 
+   /* border use kora its a good practice */
+}
+
+/*1. flex use  */
+/* .box {background-color: blue;
+          width: 110px;
+          padding: 20px;
+         }    
+        
+.box1 {background-color: aqua;}
+.box2 {background-color: bisque;}
+.box3 {background-color: blueviolet;}
+.box4 {background-color: brown;}
+
+.flexuse{display: flex;
+         justify-content: space-evenly;
+         flex-direction: row-reverse;
+} */
