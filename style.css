@@ -33,20 +33,44 @@
 .list:hover {color: rgb(23, 155, 212);}
 
 /* baner section  */
+.banerimg {width: 300px;}
+ .baner-sec {height: 100vh;
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+          background-image: url("background.png"),linear-gradient(45deg,#F6EA41,#F048C6);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           color: white } 
 
-.baner-sec {display: flex;
-            align-items: center;
-            height: 677px;
-            background-color: rgb(79, 243, 202);
-            justify-content: center;
+.baner-heading{font-size: 55px;
+               font-weight: bold;}
 
+.baner-paragraph{font-size: 18px;
+                 margin-top: 15px;
+                 margin-bottom: 15px;
+                 
 
 }
-.baner-text {margin-left: 30px;}
-.heading {font-size: 54px;}
-.baner-img {margin-left: 100px;}
-.banerimg {width: 400px;
-           
-}
+.baner-button{padding: 10px 20px;
+              color: white;
+            background-color: red;
+            /* margin-top: 20px; */
+        border: none;
+        border-radius: 5px;}
+
+/* .baner-sec {    display: flex;
+    justify-content: space-around;  #007991,#78FFD6 #00B09B,#96C93D rgb(98, 83, 102),rgb(119, 114, 95)
+    height: 100vh; #F6EA41,F048C6
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;}  */
+
+
             
            
