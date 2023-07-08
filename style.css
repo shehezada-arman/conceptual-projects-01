@@ -4,14 +4,9 @@
    font-family: Arial;
 }
 
-/* .navbar {height: 67.6px;
-         width: 1519.2px;
-         background-color: #424141;
-         font-size: 16px;
-         padding: 12px;
-         color: #FFFFFF;
 
-} */
+
+
 .navbar {background-color: #424141;
          padding: 20px;
          color: white;
@@ -56,20 +51,33 @@
 .baner-button{padding: 10px 20px;
               color: white;
             background-color: red;
-            /* margin-top: 20px; */
+           
         border: none;
         border-radius: 5px;}
 
-/* .baner-sec {    display: flex;
-    justify-content: space-around;  #007991,#78FFD6 #00B09B,#96C93D rgb(98, 83, 102),rgb(119, 114, 95)
-    height: 100vh; #F6EA41,F048C6
-    align-items: center;
-    /* border: 2px solid gray; */
-    color: white;
-    background-image: url("background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;}  */
+
+
+/* this is about section  */
+
+#about-us{font-size: 54px;
+          font-weight: bold;
+          text-align: center;
+          margin-top: 20px;}
+#sec-img{width: 300px;}   
+.about-container{display: flex;
+                 align-items: center;
+                 justify-content: space-around;
+                height: 367px;}   
+#hed{margin-bottom: 15px;}     
+#para{margin-bottom: 10px;
+    font-size: 17px;
+      }        
+#butt{padding: 10px 20px;
+      color: white;
+    background-color: red;
+border-radius: 5px;
+border: none;
+margin-top: 9px;}     
 
 
             
